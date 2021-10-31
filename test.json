@@ -1,0 +1,36 @@
+{
+  "name": "Enoc",
+  "age": 24,
+  "address": "Mexico",
+  "active": true,
+  "key": {
+    "key1": "value",
+    "key2": 32,
+    "key3": {
+      "key": "value",
+      "key2": "value2"
+    }
+  },
+  "jsonObject": {
+    "key": "value",
+    "key2": 32
+  },
+  "array": [
+    "item1",
+    "item2"
+  ],
+  "jsonArray": [
+    "item1",
+    "item2"
+  ],
+  "objectArray": [
+    {
+      "key": "value",
+      "key3": "value3"
+    },
+    {
+      "key2": "value2",
+      "key4": "value4"
+    }
+  ]
+}
