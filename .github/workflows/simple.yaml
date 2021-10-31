@@ -5,3 +5,10 @@ on: [push]
 jobs:
   run-shell-command:
     runs-on: ubuntu-latest
+    steps:
+      - name: echo as string
+        run: echo "Hola Mundo"
+      - name: multiline script
+        run:  |
+          node -v
+          npm -v
